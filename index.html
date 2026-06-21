@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sovereign Kingdom of Dahlia || Commission on Membership</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="gm-nav">
+    <div class="gm-nav-container">
+      <h1 class="gm-logo">The Commission on Membership</h1>
+      <div class="gm-nav-links">
+        <button class="gm-btn-nav" onclick="location.href='#home'">Home</button>
+        <button class="gm-btn-nav" onclick="location.href='#about'">About</button>
+        <button class="gm-btn-nav" onclick="location.href='#membership'">Membership</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="gm-section gm-hero">
+    <div class="gm-hero-content" style="max-width: 900px;">
+      <h2 class="gm-hero-title">Commission on Membership</h2>
+      <p class="gm-hero-subtitle" style="margin-bottom: 30px;">A community full of hope, good leadership and service.</p>
+      <p class="gm-text" style="font-size: 1.3rem; line-height: 1.9; color: var(--gm-text); max-width: 700px; margin: 0 auto 40px;">
+        Welcome to the official domain of the Commission on Membership. For years, we have stood as guardians of honor, unity, and service.
+        Our kingdom is not built on power alone, but on the unbreakable bond of loyalty among its people. Here, every member carries the weight of tradition
+        and the promise of a brighter future for all who seek purpose and belonging.
+      </p>
+      <div class="gm-buttons">
+        <button class="gm-btn-nav" onclick="location.href='#about'">Learn More</button>
+        <button class="gm-btn-nav openAppBtn">Join the Kingdom</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="gm-section">
+    <div class="gm-container" style="max-width: 1000px;">
+      <h2 class="gm-section-title">About the Kingdom</h2>
+
+      <div style="display: grid; gap: 40px; text-align: left; margin-top: 50px;">
+
+        <div style="background: rgba(26, 15, 8, 0.7); backdrop-filter: blur(15px); border: 1px solid var(--gm-border); border-radius: 20px; padding: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);">
+          <h3 style="color: var(--gm-gold); font-family: 'Cinzel', serif; font-size: 1.8rem; margin-bottom: 20px; letter-spacing: 2px;">Our Heritage</h3>
+          <p style="color: var(--gm-text-muted); font-size: 1.15rem; line-height: 1.9;">
+            The Sovereign Kingdom of Dahlia was founded on the timeless principles of honor, justice, and unity. Every decree, every gathering, and every member represents a vital chapter in our continuing legacy.
+          </p>
+        </div>
+
+        <div style="background: rgba(26, 15, 8, 0.7); backdrop-filter: blur(15px); border: 1px solid var(--gm-border); border-radius: 20px; padding: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);">
+          <h3 style="color: var(--gm-gold); font-family: 'Cinzel', serif; font-size: 1.8rem; margin-bottom: 20px; letter-spacing: 2px;">Our Values</h3>
+          <p style="color: var(--gm-text-muted); font-size: 1.15rem; line-height: 1.9; margin-bottom: 20px;">
+            At the heart of Dahlia lie three unshakable pillars that guide every decision:
+          </p>
+          <ul style="color: var(--gm-text); font-size: 1.1rem; line-height: 2.2; padding-left: 25px;">
+            <li><strong style="color: var(--gm-gold);">Honor:</strong> We act with integrity in all things.</li>
+            <li><strong style="color: var(--gm-gold);">Loyalty:</strong> We stand together, no member left behind.</li>
+            <li><strong style="color: var(--gm-gold);">Service:</strong> We dedicate ourselves to our community.</li>
+          </ul>
+        </div>
+
+        <div style="background: rgba(26, 15, 8, 0.7); backdrop-filter: blur(15px); border: 1px solid var(--gm-border); border-radius: 20px; padding: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);">
+          <h3 style="color: var(--gm-gold); font-family: 'Cinzel', serif; font-size: 1.8rem; margin-bottom: 20px; letter-spacing: 2px;">Our Vision</h3>
+          <p style="color: var(--gm-text-muted); font-size: 1.15rem; line-height: 1.9;">
+            We envision a kingdom where tradition and innovation walk hand in hand. Where every voice is heard, every member is valued, and every generation
+            leaves the realm stronger than they found it.
+          </p>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 50px;">
+        <button class="gm-btn-nav openAppBtn">Become a Member</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP SECTION -->
+  <section id="membership" class="gm-section">
+    <div class="gm-container">
+      <h2 class="gm-section-title">Membership</h2>
+      <p class="gm-text">Join our kingdom and become part of a legacy built on honor, loyalty, and service. Every member plays a vital role in shaping the future of Dahlia.</p>
+
+      <div class="gm-buttons">
+        <button class="gm-btn-nav openAppBtn">Apply Now</button>
+        <button class="gm-btn-nav" id="openArchivesBtn">Access Archives</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATION MODAL -->
+  <div id="applicationModal" class="gm-modal">
+    <div class="gm-modal-content">
+      <span class="gm-modal-close">&times;</span>
+      <h2 style="color: var(--gm-gold); text-align: center; margin-bottom: 30px; font-family: 'Cinzel', serif;">Membership Application</h2>
+      <form id="applicationForm">
+        <div class="gm-form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+        </div>
+        <div class="gm-form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        <div class="gm-form-group">
+          <label for="reason">Reason for Application</label>
+          <textarea id="reason" name="reason" rows="4" required placeholder="Why do you want to join?"></textarea>
+        </div>
+        <div class="gm-form-group">
+          <label for="experience">Years of Experience</label>
+          <input type="number" id="experience" name="experience" required min="0">
+        </div>
+        <button type="submit" class="gm-btn-nav" style="width: 100%; margin-top: 10px;">Submit Application</button>
+      </form>
+      <div id="receiptArea" style="display: none; text-align: center;">
+        <h3 style="color: var(--gm-gold); margin-bottom: 20px;">Application Submitted!</h3>
+        <canvas id="receiptCanvas" width="600" height="400"></canvas>
+        <button id="downloadBtn" class="gm-btn-nav" style="width: 100%; margin-top: 20px;">Download Receipt</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ARCHIVES MODAL - PUBLIC -->
+  <div id="archivesModal" class="gm-modal">
+    <div class="gm-modal-content" style="max-width: 1000px; width: 95%; background: rgba(26, 15, 8, 0.85); backdrop-filter: blur(20px); border: 2px solid var(--gm-gold); border-radius: 20px; padding: 40px;">
+      <span class="gm-modal-close" id="closeArchivesModal">&times;</span>
+      <h2 style="color: var(--gm-gold); text-align: center; margin-bottom: 10px; font-family: 'Cinzel', serif; letter-spacing: 2px;">Member Archives</h2>
+      <p style="color: var(--gm-text-muted); text-align: center; margin-bottom: 30px;">Official records of SKD members</p>
+
+      <div class="gm-table-wrapper" style="overflow-x: auto; border: 1px solid var(--gm-border); border-radius: 15px; background: rgba(15, 8, 4, 0.6);">
+        <table id="archivesTable" style="width: 100%; border-collapse: collapse; min-width: 700px;">
+          <thead>
+            <tr style="background: rgba(201, 169, 97, 0.2);">
+              <th style="padding: 18px 15px; color: var(--gm-gold); text-align: left; font-weight: 600; border-bottom: 2px solid var(--gm-gold);">Serial No</th>
+              <th style="padding: 18px 15px; color: var(--gm-gold); text-align: left; font-weight: 600; border-bottom: 2px solid var(--gm-gold);">Name of Member</th>
+              <th style="padding: 18px 15px; color: var(--gm-gold); text-align: left; font-weight: 600; border-bottom: 2px solid var(--gm-gold);">Date of Application</th>
+              <th style="padding: 18px 15px; color: var(--gm-gold); text-align: left; font-weight: 600; border-bottom: 2px solid var(--gm-gold);">Position</th>
+              <th style="padding: 18px 15px; color: var(--gm-gold); text-align: left; font-weight: 600; border-bottom: 2px solid var(--gm-gold);">Violations</th>
+            </tr>
+          </thead>
+          <tbody id="archivesBody">
+            <tr>
+              <td colspan="5" style="text-align: center; padding: 40px; color: var(--gm-text-muted);">Loading records...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="gm-footer">
+    <p>&copy; 2026 Sovereign Kingdom of Dahlia. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzVwgBYjPIuabcrLpowSR6s7clZv7ga81LidCNaImltwKWT6dpHP3Q7DQhXjtKlWkyV/exec';
+
+  // NAV
+  const nav = document.querySelector('.gm-nav');
+  const navButtons = document.querySelectorAll('.gm-btn-nav');
+  const sections = document.querySelectorAll('.gm-section');
+
+  window.addEventListener('scroll', () => {
+    nav?.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  navButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+      const onclickAttr = button.getAttribute('onclick');
+      if(onclickAttr && onclickAttr.includes('#')) {
+        e.preventDefault();
+        const targetId = onclickAttr.match(/#[a-z0-9-_]+/i)?.[0];
+        if(!targetId) return;
+        const targetSection = document.querySelector(targetId);
+        if(targetSection && nav) {
+          window.scrollTo({
+            top: targetSection.offsetTop - nav.offsetHeight - 20,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  });
+
+  // APPLICATION + RECEIPT
+  const appModal = document.getElementById('applicationModal');
+  const openAppBtns = document.querySelectorAll('.openAppBtn');
+  const closeAppBtn = appModal?.querySelector('.gm-modal-close');
+  const appForm = document.getElementById('applicationForm');
+  const receiptArea = document.getElementById('receiptArea');
+  const canvas = document.getElementById('receiptCanvas');
+  const downloadBtn = document.getElementById('downloadBtn');
+
+  openAppBtns.forEach(btn => {
+    btn?.addEventListener('click', () => appModal.classList.add('show'));
+  });
+
+  function closeAppModal() {
+    appModal.classList.remove('show');
+    appForm.style.display = 'block';
+    receiptArea.style.display = 'none';
+    appForm.reset();
+    const submitBtn = appForm.querySelector('button[type="submit"]');
+    submitBtn.textContent = 'Submit Application';
+    submitBtn.disabled = false;
+  }
+
+  closeAppBtn?.addEventListener('click', closeAppModal);
+  appModal?.addEventListener('click', (e) => {
+    if(e.target === appModal) closeAppModal();
+  });
+
+  appForm?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const submitBtn = appForm.querySelector('button[type="submit"]');
+    submitBtn.textContent = 'Submitting...';
+    submitBtn.disabled = true;
+
+    const formData = {
+      fullname: appForm.fullname.value,
+      email: appForm.email.value,
+      reason: appForm.reason.value,
+      experience: appForm.experience.value
+    };
+
+    try {
+      const response = await fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'cors',
+        body: JSON.stringify(formData),
+        headers: { 'Content-Type': 'application/json' }
+      });
+
+      const result = await response.json();
+      if(result.status!== 'success') throw new Error(result.message);
+
+      appForm.style.display = 'none';
+      receiptArea.style.display = 'block';
+      drawReceipt(formData, result.serial); // real serial from server
+
+    } catch(error) {
+      alert('Error submitting application: ' + error.message);
+      submitBtn.textContent = 'Submit Application';
+      submitBtn.disabled = false;
+    }
+  });
+
+  downloadBtn?.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.download = `SKD-Receipt-${Date.now()}.png`;
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  });
+
+  function drawReceipt(data, serial) {
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, 600, 400);
+    const gradient = ctx.createLinearGradient(0, 0, 600, 400);
+    gradient.addColorStop(0, '#1a0f08');
+    gradient.addColorStop(1, '#3d2817');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, 600, 400);
+
+    ctx.strokeStyle = '#c9a961';
+    ctx.lineWidth = 4;
+    ctx.strokeRect(15, 15, 570, 370);
+
+    ctx.fillStyle = '#c9a961';
+    ctx.font = 'bold 26px Georgia';
+    ctx.textAlign = 'center';
+    ctx.fillText('SOVEREIGN KINGDOM OF DAHLIA', 300, 55);
+    ctx.font = '18px Georgia';
+    ctx.fillText('Commission on Membership', 300, 85);
+
+    ctx.strokeStyle = 'rgba(201, 169, 97, 0.4)';
+    ctx.beginPath();
+    ctx.moveTo(40, 105);
+    ctx.lineTo(560, 105);
+    ctx.stroke();
+
+    ctx.fillStyle = '#f5f0e5';
+    ctx.font = 'bold 20px Courier New';
+    ctx.fillText(`SERIAL NO: ${serial}`, 300, 145);
+
+    ctx.font = '17px Arial';
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#c9a961';
+
+    ['Full Name:', 'Email:', 'Reason:', 'Experience:', 'Date Submitted:'].forEach((label, i) => {
+      ctx.fillText(label, 50, 195 + i*40);
+      ctx.fillStyle = '#f5f0e5';
+      ctx.fillText([
+        data.fullname,
+        data.email,
+        data.reason,
+        data.experience + ' years',
+        new Date().toLocaleDateString('en-PH')
+      ][i], 240, 195 + i*40);
+      ctx.fillStyle = '#c9a961';
+    });
+
+    ctx.font = '13px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgba(245, 240, 229, 0.5)';
+    ctx.fillText('Save this receipt for your records', 300, 365);
+  }
+
+  // ARCHIVES PUBLIC
+  const archivesModal = document.getElementById('archivesModal');
+  const openArchivesBtn = document.getElementById('openArchivesBtn');
+  const closeArchivesBtn = document.getElementById('closeArchivesModal');
+
+  openArchivesBtn?.addEventListener('click', () => {
+    archivesModal.classList.add('show');
+    loadArchives();
+  });
+
+  closeArchivesBtn?.addEventListener('click', () => archivesModal.classList.remove('show'));
+  archivesModal?.addEventListener('click', (e) => {
+    if(e.target === archivesModal) archivesModal.classList.remove('show');
+  });
+
+  async function loadArchives() {
+    const tbody = document.getElementById('archivesBody');
+    tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 40px;">Loading records...</td></tr>`;
+
+    try {
+      const response = await fetch(SCRIPT_URL);
+      const result = await response.json();
+
+      if(result.status === 'success' && result.data.length > 0) {
+        tbody.innerHTML = result.data.map(m => `
+          <tr>
+            <td style="font-family: Courier New; color: var(--gm-gold);">${m.serial}</td>
+            <td>${m.name}</td>
+            <td>${m.date}</td>
+            <td style="color: var(--gm-gold);">${m.position}</td>
+            <td style="color: ${m.violations === 'None'? '#4caf50' : '#ff6b6b'}">${m.violations}</td>
+          </tr>
+        `).join('');
+      } else {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 40px;">No records yet</td></tr>`;
+      }
+    } catch(err) {
+      tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; padding: 40px; color: #ff6b6b;">Error loading data</td></tr>`;
+    }
+  }
+});
+
+  </script>
+</body>
+</html>
